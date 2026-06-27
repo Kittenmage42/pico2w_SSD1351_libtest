@@ -810,4 +810,4 @@ CMakeFiles/pioasm.dir/python_output.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/set \
   /Users/oswin/pico/pico-sdk/tools/pioasm/gen/location.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/iostream \
-  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+  /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h

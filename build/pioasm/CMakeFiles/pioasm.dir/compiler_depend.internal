@@ -812,7 +812,7 @@ CMakeFiles/pioasm.dir/ada_output.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_disassembler.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_enums.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_types.h
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h
 
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/c_sdk_output.cpp
@@ -1625,7 +1625,7 @@ CMakeFiles/pioasm.dir/c_sdk_output.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_disassembler.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_enums.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_types.h
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h
 
 CMakeFiles/pioasm.dir/gen/lexer.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/gen/lexer.cpp
@@ -4084,7 +4084,7 @@ CMakeFiles/pioasm.dir/go_output.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_disassembler.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_enums.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_types.h
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h
 
 CMakeFiles/pioasm.dir/hex_output.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/hex_output.cpp
@@ -6523,7 +6523,7 @@ CMakeFiles/pioasm.dir/main.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_assembler.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_enums.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_types.h
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h
 
 CMakeFiles/pioasm.dir/pio_assembler.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_assembler.cpp
@@ -8969,5 +8969,5 @@ CMakeFiles/pioasm.dir/python_output.cpp.o
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_disassembler.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_enums.h
  /Users/oswin/pico/pico-sdk/tools/pioasm/pio_types.h
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h
 

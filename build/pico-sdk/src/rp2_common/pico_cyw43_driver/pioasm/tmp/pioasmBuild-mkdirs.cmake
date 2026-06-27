@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/oswin/pico/pico-sdk/tools/pioasm")
   file(MAKE_DIRECTORY "/Users/oswin/pico/pico-sdk/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm-install"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm-install"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

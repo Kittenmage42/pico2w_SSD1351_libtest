@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/oswin/pico/pico-sdk/tools/pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm
+CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pioasm.dir/depend.make
@@ -253,6 +253,6 @@ CMakeFiles/pioasm.dir/clean:
 .PHONY : CMakeFiles/pioasm.dir/clean
 
 CMakeFiles/pioasm.dir/depend:
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/pico-sdk/tools/pioasm /Users/oswin/pico/pico-sdk/tools/pioasm /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/pioasm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/pico-sdk/tools/pioasm /Users/oswin/pico/pico-sdk/tools/pioasm /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/pioasm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pioasm.dir/depend
 

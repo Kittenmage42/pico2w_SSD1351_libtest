@@ -1,7 +1,7 @@
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/pioasm.dir
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/rebuild_cache.dir
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/list_install_components.dir
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/install.dir
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/install/local.dir
-/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/CMakeFiles/install/strip.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/pioasm.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/rebuild_cache.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/list_install_components.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/install.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/install/local.dir
+/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/CMakeFiles/install/strip.dir

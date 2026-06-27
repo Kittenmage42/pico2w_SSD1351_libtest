@@ -57,10 +57,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest
+CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build
+CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -219,6 +219,19 @@ ssd1351: cmake_check_build_system
 ssd1351/fast:
 	$(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/build
 .PHONY : ssd1351/fast
+
+#=============================================================================
+# Target rules for targets named picomaplib
+
+# Build rule for target.
+picomaplib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picomaplib
+.PHONY : picomaplib
+
+# fast build rule for target.
+picomaplib/fast:
+	$(MAKE) $(MAKESILENT) -f lib/picomaplib/CMakeFiles/picomaplib.dir/build.make lib/picomaplib/CMakeFiles/picomaplib.dir/build
+.PHONY : picomaplib/fast
 
 Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
 .PHONY : Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
@@ -2451,6 +2464,7 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... pico2w_ssd1351_libtest"
+	@echo "... picomaplib"
 	@echo "... ssd1351"
 	@echo "... Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
 	@echo "... Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"

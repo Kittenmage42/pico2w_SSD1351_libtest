@@ -817,4 +817,4 @@ CMakeFiles/pioasm.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/_static_assert.h \
   /Users/oswin/pico/pico-sdk/tools/pioasm/output_format.h \
-  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm/version.h
+  /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm/version.h

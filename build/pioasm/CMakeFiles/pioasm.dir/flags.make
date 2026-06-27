@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/oswin/pico/pico-sdk/tools/pioasm -I/Users/oswin/pico/pico-sdk/tools/pioasm/gen -I/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pioasm
+CXX_INCLUDES = -I/Users/oswin/pico/pico-sdk/tools/pioasm -I/Users/oswin/pico/pico-sdk/tools/pioasm/gen -I/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pioasm
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk
 

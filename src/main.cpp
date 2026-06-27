@@ -1,28 +1,26 @@
 #include "pico/stdlib.h"
 #include "ssd1351.hpp"
+#include "map.hpp"
 #include <cmath>
 #include <cstdio> // snprintf
 #include "hardware/structs/rosc.h"
 
 #define TARGET_FPS 60
 
-int map(int x, int in_min, int in_max,
-        int out_min, int out_max)
-{
-    return (x - in_min) * (out_max - out_min)
-           / (in_max - in_min)
-           + out_min;
-}
+struct Ball {
+    float x, y;
+    float vx, vy;
+    int radius;
+};
 
-float mapf(float x,
-           float in_min, float in_max,
-           float out_min, float out_max)
-{
-    return (x - in_min) * (out_max - out_min)
-           / (in_max - in_min)
-           + out_min;
-}
+void update(Ball& ball) {
+    ball.x += ball.vx;
+    ball.y += ball.vy;
 
+    // Wände (128x128 Display)
+    if (ball.x - ball.radius < 0 || ball.x + ball.radius >= 128) ball.vx = -ball.vx;
+    if (ball.y - ball.radius < 0 || ball.y + ball.radius >= 128) ball.vy = -ball.vy;
+}
 
 int main() {
     stdio_init_all();
@@ -42,17 +40,25 @@ int main() {
     
     sleep_ms(3000);
     
-    disp.clear(SSD1351::rgb565(0, 0, 0));
-    
-    for (int x = 0; x <= 127; x++) {
-        for (int y = 0; y <= 127; y++) {
-            disp.setPixel(x, y, SSD1351::rgb565(map(x, 0, 127, 0, 255),
-                                                map(y, 0, 127, 0, 255),
-                                                0));
-        }
-    }
-    
-    disp.show();
+    Ball ball = {63.0, 63.0, 1, 2, 8};
 
-    while (true) tight_loop_contents();
+    while(true) {
+        
+        update(ball);
+        
+        disp.clear();
+        
+        for (int x = 0; x <= 127; x++) {
+            for (int y = 0; y <= 127; y++) {
+                disp.setPixel(x, y, SSD1351::rgb565(map(x, 0, 127, 0, 255),
+                                                    map(y, 0, 127, 0, 255),
+                                                    0));
+            }
+        }
+        
+        disp.fillRect(ball.x - ball.radius, ball.y - ball.radius, ball.radius * 2, ball.radius * 2, SSD1351::rgb565(0, 0, 255));
+        disp.show();
+        
+        sleep_ms(1000.0 / TARGET_FPS);
+    };
 }

@@ -12,6 +12,7 @@ pico_sdk_init()
 
 # Eigene Libraries einbinden
 add_subdirectory(lib/ssd1351)
+add_subdirectory(lib/picomaplib)
 
 # Add your executable and source files
 add_executable(pico2w_ssd1351_libtest
@@ -27,6 +28,7 @@ target_link_libraries(pico2w_ssd1351_libtest
     pico_stdlib
     pico_cyw43_arch_none
     ssd1351
+    picomaplib
 )
 
 # Create map/bin/hex/uf2 files

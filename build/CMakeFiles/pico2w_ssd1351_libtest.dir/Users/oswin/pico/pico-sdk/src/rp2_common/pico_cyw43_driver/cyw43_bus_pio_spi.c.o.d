@@ -34,9 +34,9 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/p
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h \
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h \
  /Users/oswin/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h \
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h \
  /Users/oswin/pico/pico-sdk/src/boards/include/boards/pico2_w.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
@@ -80,7 +80,7 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/p
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
- /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h \
+ /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h \
  /Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43.h \
  /Users/oswin/pico/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \

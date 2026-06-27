@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest
+CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build
+CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 1 /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 1 /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/projects/pico2w_ssd1351_libtest /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/projects/pico2w_SSD1351_libtest /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

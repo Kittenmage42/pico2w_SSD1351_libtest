@@ -134,13 +134,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/oswin/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "/Users/oswin/pico/pico-sdk/tools/CMakeLists.txt"
   "/Users/oswin/pico/pico-sdk/tools/Findpioasm.cmake"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/CMakeLists.txt"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/CMakeLists.txt"
   "CMakeFiles/3.31.10/CMakeASMCompiler.cmake"
   "CMakeFiles/3.31.10/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.10/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.10/CMakeSystem.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
-  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/CMakeLists.txt"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib/CMakeLists.txt"
+  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/CMakeLists.txt"
   "/opt/local/share/cmake-3.31/Modules/CMakeASMCompiler.cmake.in"
   "/opt/local/share/cmake-3.31/Modules/CMakeASMInformation.cmake"
   "/opt/local/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in"
@@ -395,6 +396,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/ssd1351/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/picomaplib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -407,4 +409,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake"
   "lib/ssd1351/CMakeFiles/ssd1351.dir/DependInfo.cmake"
+  "lib/picomaplib/CMakeFiles/picomaplib.dir/DependInfo.cmake"
   )

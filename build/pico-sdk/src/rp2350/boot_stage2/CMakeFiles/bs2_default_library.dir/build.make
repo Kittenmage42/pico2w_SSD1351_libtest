@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest
+CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build
+CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build
 
 # Include any dependencies generated for this target.
 include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend.make
@@ -70,28 +70,28 @@ include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/progr
 include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/flags.make
 
 pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/pad_checksum -s 0xffffffff -a arm /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /opt/local/bin/python3.13 /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/pad_checksum -s 0xffffffff -a arm /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2350/boot_stage2/bs2_default.bin: pico-sdk/src/rp2350/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/codegen
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/flags.make
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o: pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o"
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o   -c /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o   -c /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i"
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S > CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S > CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s"
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s
 
 bs2_default_library: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 bs2_default_library: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make
@@ -102,11 +102,11 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/clean:
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_library.dir/cmake_clean.cmake
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_library.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
-	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/projects/pico2w_ssd1351_libtest /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/projects/pico2w_SSD1351_libtest /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend
 
