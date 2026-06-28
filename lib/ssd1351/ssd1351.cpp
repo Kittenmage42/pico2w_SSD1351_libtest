@@ -160,6 +160,55 @@ void SSD1351::drawString(uint16_t x, uint16_t y, const char* s, uint16_t color56
     }
 }
 
+void SSD1351::drawImage(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
+                        const uint16_t* pixels) {
+    for (uint16_t row = 0; row < h; ++row) {
+        if (y + row >= height_) break;
+        for (uint16_t col = 0; col < w; ++col) {
+            if (x + col >= width_) break;
+            uint16_t px = pixels[row * w + col];
+            if (!(px & 0x8000)) continue;  // transparent
+
+            uint8_t r = (px >> 10) & 0x1F;
+            uint8_t g = (px >>  5) & 0x1F;
+            uint8_t b = (px >>  0) & 0x1F;
+            setPixel(x + col, y + row, (r << 11) | (g << 6) | b);
+        }
+    }
+}
+
+void SSD1351::drawImageAplha(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
+                             const uint8_t* pixels) {  // 3 Bytes pro Pixel
+    for (uint16_t row = 0; row < h; ++row) {
+        if (y + row >= height_) break;
+        for (uint16_t col = 0; col < w; ++col) {
+            if (x + col >= width_) break;
+            size_t i = (row * w + col) * 3;
+            uint8_t  a  = pixels[i];
+            uint16_t px = (pixels[i+1] << 8) | pixels[i+2];
+
+            if (a == 0) continue;  // voll transparent
+            if (a == 255) {
+                setPixel(x + col, y + row, px);
+            } else {
+                // Alpha-Blending mit Framebuffer-Pixel
+                size_t   idx = ((size_t)(y + row) * width_ + (x + col)) * 2;
+                uint16_t bg  = (buffer_[idx] << 8) | buffer_[idx + 1];
+
+                uint8_t r1 = (px >> 11) & 0x1F, r2 = (bg >> 11) & 0x1F;
+                uint8_t g1 = (px >>  5) & 0x3F, g2 = (bg >>  5) & 0x3F;
+                uint8_t b1 =  px        & 0x1F, b2 =  bg        & 0x1F;
+
+                uint8_t r = (r1 * a + r2 * (255 - a)) / 255;
+                uint8_t g = (g1 * a + g2 * (255 - a)) / 255;
+                uint8_t b = (b1 * a + b2 * (255 - a)) / 255;
+
+                setPixel(x + col, y + row, (r << 11) | (g << 5) | b);
+            }
+        }
+    }
+}
+
 void SSD1351::show() {
     setAddrWindow(0, 0, width_, height_);
     writeData(buffer_, (size_t)width_ * height_ * 2);

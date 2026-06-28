@@ -27,6 +27,13 @@ public:
     void fillTriangle(int x1, int y1, int x2, int y2, int x3, int y3, uint16_t color565);
     void drawChar(uint16_t x, uint16_t y, char c, uint16_t color565, uint8_t scale = 1);
     void drawString(uint16_t x, uint16_t y, const char* s, uint16_t color565, uint8_t scale = 1);
+    // pixels: ARGB1555-Format (Bit 15 = 1 sichtbar, 0 transparent)
+    void drawImage(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
+                   const uint16_t* pixels);
+
+    // pixels: ARGB8565, 3 Bytes pro Pixel (A, RGB565_hi, RGB565_lo)
+    void drawImageAlpha(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
+                        const uint8_t* pixels);
 
     // --- Buffer ans Display senden ---
     void show();
@@ -39,6 +46,15 @@ public:
 
     static constexpr uint16_t rgb565(uint8_t r, uint8_t g, uint8_t b) {
         return static_cast<uint16_t>(((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3));
+    }
+    
+    static constexpr uint16_t argb1555(uint8_t r, uint8_t g, uint8_t b, bool opaque = true) {
+        return static_cast<uint16_t>(
+            (opaque ? 0x8000 : 0x0000) |
+            ((r >> 3) << 10) |
+            ((g >> 3) <<  5) |
+            ( b >> 3)
+        );
     }
 
 private:
