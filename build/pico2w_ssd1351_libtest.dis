@@ -1,5 +1,5 @@
 
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico2w_ssd1351_libtest.elf:     file format elf32-littlearm
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico2w_ssd1351_libtest.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -37,26 +37,26 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000045  00000000  00000000  000094e0  2**0
                   CONTENTS, READONLY
- 17 .debug_info   0003be8a  00000000  00000000  00009525  2**0
+ 17 .debug_info   0003c308  00000000  00000000  00009525  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 00009dc9  00000000  00000000  000453af  2**0
+ 18 .debug_abbrev 00009e1a  00000000  00000000  0004582d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001c9d0  00000000  00000000  0004f178  2**0
+ 19 .debug_loclists 0001cd07  00000000  00000000  0004f647  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_aranges 00001368  00000000  00000000  0006bb48  2**3
+ 20 .debug_aranges 00001378  00000000  00000000  0006c350  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_rnglists 00004da6  00000000  00000000  0006ceb0  2**0
+ 21 .debug_rnglists 00004e45  00000000  00000000  0006d6c8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   00024324  00000000  00000000  00071c56  2**0
+ 22 .debug_line   000247f4  00000000  00000000  0007250d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    00009f8e  00000000  00000000  00095f7a  2**0
+ 23 .debug_str    0000a013  00000000  00000000  00096d01  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  000039b4  00000000  00000000  0009ff08  2**2
+ 24 .debug_frame  00003a10  00000000  00000000  000a0d14  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 00000165  00000000  00000000  000a38bc  2**0
+ 25 .debug_line_str 00000165  00000000  00000000  000a4724  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico2w_ssd1351_libtest.elf:     file format elf32-littlearm
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico2w_ssd1351_libtest.elf:     file format elf32-littlearm
 
 
 Disassembly of section .text:

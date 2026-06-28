@@ -1,6 +1,6 @@
 lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.cpp \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.hpp \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.cpp \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/cstdint \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/c++config.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/os_defines.h \
@@ -27,9 +27,9 @@ lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h \
  /Users/oswin/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h \
  /Users/oswin/pico/pico-sdk/src/boards/include/boards/pico2_w.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
@@ -49,7 +49,7 @@ lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/font8x8_basic.h \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/font8x8_basic.h \
  /Users/oswin/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \

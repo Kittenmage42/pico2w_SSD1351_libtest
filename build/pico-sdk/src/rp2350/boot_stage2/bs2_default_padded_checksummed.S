@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

@@ -1,5 +1,5 @@
 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/src/main.cpp \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/src/main.cpp \
  /Users/oswin/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/oswin/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/oswin/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
@@ -23,9 +23,9 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h \
  /Users/oswin/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h \
  /Users/oswin/pico/pico-sdk/src/boards/include/boards/pico2_w.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
@@ -71,14 +71,14 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.hpp \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/cstdint \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/cstddef \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/bits/version.h \
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib/map.hpp \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.hpp \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/cmath \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/bits/requires_hosted.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/bits/cpp_type_traits.h \

@@ -4795,7 +4795,7 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/p
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h
 
-CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: /Users/oswin/pico/projects/pico2w_SSD1351_libtest/src/main.cpp \
+CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: /Users/oswin/pico/projects/pico2w_ssd1351_libtest/src/main.cpp \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -4922,13 +4922,9 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: /Users/oswin/pico/projects
   /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib/map.hpp \
-  /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.hpp
+  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.hpp \
+  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp
 
-
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.hpp:
-
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib/map.hpp:
 
 /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/rosc.h:
 
@@ -4953,6 +4949,8 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: /Users/oswin/pico/projects
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/bits/move.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/bit:
+
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/src/main.cpp:
 
 /Users/oswin/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
@@ -5144,8 +5142,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h:
 
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/src/main.cpp:
-
 /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h:
 
 /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c:
@@ -5157,6 +5153,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
 
 /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.hpp:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/tr1/ell_integral.tcc:
 
@@ -5219,6 +5217,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /Users/oswin/pico/pico-sdk/src/common/pico_time/time.c:
 
 /Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c:
+
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/float.h:
 

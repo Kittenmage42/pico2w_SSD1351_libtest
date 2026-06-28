@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
-  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+  "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
   )
 
 # Preprocessor definitions for this target.
@@ -93,8 +93,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "/Users/oswin/pico/pico-sdk/lib/tinyusb/src"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
-  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351"
-  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib"
+  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351"
+  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib"
   "/Users/oswin/pico/pico-sdk/src/common/pico_stdlib_headers/include"
   "/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/Users/oswin/pico/pico-sdk/src/common/pico_base_headers/include"
@@ -254,7 +254,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
-  "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/src/main.cpp" "CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o" "gcc" "CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o.d"
+  "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/src/main.cpp" "CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o" "gcc" "CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

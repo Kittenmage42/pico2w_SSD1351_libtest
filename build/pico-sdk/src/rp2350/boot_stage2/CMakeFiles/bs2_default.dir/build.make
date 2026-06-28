@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest
+CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build
+CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build
 
 # Include any dependencies generated for this target.
 include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/depend.make
@@ -74,16 +74,16 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/codegen:
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/flags.make
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o: /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.o   -c /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.o   -c /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/bs2_default.dir/compile_time_choice.S.i"
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S > CMakeFiles/bs2_default.dir/compile_time_choice.S.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S > CMakeFiles/bs2_default.dir/compile_time_choice.S.i
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
 
 # Object files for target bs2_default
 bs2_default_OBJECTS = \
@@ -96,21 +96,21 @@ pico-sdk/src/rp2350/boot_stage2/bs2_default.elf: pico-sdk/src/rp2350/boot_stage2
 pico-sdk/src/rp2350/boot_stage2/bs2_default.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/build.make
 pico-sdk/src/rp2350/boot_stage2/bs2_default.elf: /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2/boot_stage2.ld
 pico-sdk/src/rp2350/boot_stage2/bs2_default.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bs2_default.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -h /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf > bs2_default.dis
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -d /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf >> bs2_default.dis
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /usr/local/bin/picotool coprodis --quiet bs2_default.dis bs2_default.dis
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bs2_default.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -h /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf > bs2_default.dis
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -d /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf >> bs2_default.dis
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && /usr/local/bin/picotool coprodis --quiet bs2_default.dis bs2_default.dis
 
 # Rule to build all files generated by this target.
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/build: pico-sdk/src/rp2350/boot_stage2/bs2_default.elf
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/clean:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default.dir/cmake_clean.cmake
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/depend:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/projects/pico2w_SSD1351_libtest /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oswin/pico/projects/pico2w_ssd1351_libtest /Users/oswin/pico/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2 /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/depend
 

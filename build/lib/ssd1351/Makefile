@@ -57,10 +57,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest
+CMAKE_SOURCE_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build
+CMAKE_BINARY_DIR = /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/lib/ssd1351//CMakeFiles/progress.marks
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/CMakeFiles 0
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/lib/ssd1351//CMakeFiles/progress.marks
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/clean
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/preinstall
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/preinstall
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/ssd1351/CMakeFiles/ssd1351.dir/rule:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/CMakeFiles/ssd1351.dir/rule
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ssd1351/CMakeFiles/ssd1351.dir/rule
 .PHONY : lib/ssd1351/CMakeFiles/ssd1351.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ssd1351: lib/ssd1351/CMakeFiles/ssd1351.dir/rule
 
 # fast build rule for target.
 ssd1351/fast:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/build
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/build
 .PHONY : ssd1351/fast
 
 Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -135,7 +135,7 @@ Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/oswin/pico/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 
 Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.i: Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -143,7 +143,7 @@ Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.i: Users/oswin/pico/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 
 Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.s: Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -151,7 +151,7 @@ Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.s: Users/oswin/pico/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -159,7 +159,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/oswin/p
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -167,7 +167,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/oswin/p
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -175,7 +175,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/oswin/p
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -183,7 +183,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/oswin/pico/pic
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -191,7 +191,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/oswin/pico/pic
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -199,7 +199,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/oswin/pico/pic
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -207,7 +207,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/oswin/pico/pico-sd
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -215,7 +215,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/oswin/pico/pico-sd
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -223,7 +223,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/oswin/pico/pico-sd
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.o: Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.o
@@ -231,7 +231,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.o: Users/oswin/pico/pico-sdk/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.i: Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -239,7 +239,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.i: Users/oswin/pico/pico-sdk/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.s: Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -247,7 +247,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.s: Users/oswin/pico/pico-sdk/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_time/time.o: Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
@@ -255,7 +255,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_time/time.o: Users/oswin/pico/pico-sdk
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_time/time.i: Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -263,7 +263,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_time/time.i: Users/oswin/pico/pico-sdk
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_time/time.s: Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -271,7 +271,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_time/time.s: Users/oswin/pico/pico-sdk
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -279,7 +279,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/oswin/pic
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -287,7 +287,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/oswin/pic
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -295,7 +295,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/oswin/pic
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.o: Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.o
@@ -303,7 +303,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.o: Users/oswin/pico/pico
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.i: Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -311,7 +311,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.i: Users/oswin/pico/pico
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.s: Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -319,7 +319,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.s: Users/oswin/pico/pico
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.o: Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.o
@@ -327,7 +327,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.o: Users/oswin/pico/pico-sd
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.i: Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -335,7 +335,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.i: Users/oswin/pico/pico-sd
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.s: Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -343,7 +343,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.s: Users/oswin/pico/pico-sd
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/queue.o: Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.o
@@ -351,7 +351,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/queue.o: Users/oswin/pico/pico-sd
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.o
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/queue.i: Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -359,7 +359,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/queue.i: Users/oswin/pico/pico-sd
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/oswin/pico/pico-sdk/src/common/pico_util/queue.s: Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -367,7 +367,7 @@ Users/oswin/pico/pico-sdk/src/common/pico_util/queue.s: Users/oswin/pico/pico-sd
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.o: Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.o
@@ -375,7 +375,7 @@ Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.i: Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.i
@@ -383,7 +383,7 @@ Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.s: Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.s
@@ -391,7 +391,7 @@ Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -399,7 +399,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/o
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -407,7 +407,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/o
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -415,7 +415,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/o
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -423,7 +423,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/oswin/p
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -431,7 +431,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/oswin/p
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -439,7 +439,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/oswin/p
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
@@ -447,7 +447,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/oswin
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
@@ -455,7 +455,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.i: Users/oswin
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
@@ -463,7 +463,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.s: Users/oswin
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -471,7 +471,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -479,7 +479,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -487,7 +487,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
@@ -495,7 +495,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/oswin/pico/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -503,7 +503,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/oswin/pico/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -511,7 +511,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/oswin/pico/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -519,7 +519,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
@@ -527,7 +527,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/oswin/pico/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -535,7 +535,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/oswin/pico/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -543,7 +543,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/oswin/pico/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
@@ -551,7 +551,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o: Users/oswin/pico/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
@@ -559,7 +559,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: Users/oswin/pico/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
@@ -567,7 +567,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: Users/oswin/pico/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -575,7 +575,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -583,7 +583,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -591,7 +591,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -599,7 +599,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -607,7 +607,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -615,7 +615,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -623,7 +623,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/oswin/pic
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -631,7 +631,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/oswin/pic
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -639,7 +639,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/oswin/pic
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -647,7 +647,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/oswin/pic
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -655,7 +655,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/oswin/pic
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -663,7 +663,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/oswin/pic
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -671,7 +671,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -679,7 +679,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -687,7 +687,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -695,7 +695,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -703,7 +703,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -711,7 +711,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -719,7 +719,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/osw
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -727,7 +727,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/osw
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -735,7 +735,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/osw
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -743,7 +743,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -751,7 +751,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -759,7 +759,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
@@ -767,7 +767,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -775,7 +775,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -783,7 +783,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -791,7 +791,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/osw
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -799,7 +799,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/oswin/pic
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -807,7 +807,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/oswin/pic
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -815,7 +815,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/oswin/pic
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -823,7 +823,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/oswi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -831,7 +831,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/oswi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -839,7 +839,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/oswi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -847,7 +847,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o:
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -855,7 +855,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i:
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -863,7 +863,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s:
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -871,7 +871,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/oswin/pico/pico
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -879,7 +879,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/os
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -887,7 +887,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/os
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -895,7 +895,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/os
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
@@ -903,7 +903,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o: Users/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
@@ -911,7 +911,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.i: Users/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
@@ -919,7 +919,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.s: Users/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
@@ -927,7 +927,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.o: Users/o
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
@@ -935,7 +935,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.o: Users/os
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
@@ -943,7 +943,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.o: Users/osw
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -951,7 +951,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/oswin/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -959,7 +959,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/oswin/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -967,7 +967,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/oswin/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
@@ -975,7 +975,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.o: Users/osw
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -983,7 +983,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/oswin/pico/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -991,7 +991,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/oswin/pico/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -999,7 +999,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/oswin/pico/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
@@ -1007,7 +1007,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.o: Users/os
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
@@ -1015,7 +1015,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.o: Users/os
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1023,7 +1023,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/oswin/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1031,7 +1031,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/oswin/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1039,7 +1039,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/oswin/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
@@ -1047,7 +1047,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.o: Users/o
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
@@ -1055,7 +1055,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1063,7 +1063,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1071,7 +1071,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
@@ -1079,7 +1079,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/os
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
@@ -1087,7 +1087,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/os
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
@@ -1095,7 +1095,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/os
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1103,7 +1103,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/oswi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1111,7 +1111,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/oswi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1119,7 +1119,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/oswi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1127,7 +1127,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1135,7 +1135,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1143,7 +1143,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
@@ -1151,7 +1151,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/oswin/pic
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1159,7 +1159,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/oswin/pic
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1167,7 +1167,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/oswin/pic
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1175,7 +1175,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1183,7 +1183,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1191,7 +1191,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1199,7 +1199,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1207,7 +1207,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1215,7 +1215,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -1223,7 +1223,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gu
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1231,7 +1231,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gu
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1239,7 +1239,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gu
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1247,7 +1247,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_bina
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1255,7 +1255,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_bina
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1263,7 +1263,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_bina
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -1271,7 +1271,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/oswin/pico/pi
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1279,7 +1279,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/oswin/pico/pi
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1287,7 +1287,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/oswin/pico/pi
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
@@ -1295,7 +1295,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/osw
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1303,7 +1303,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/osw
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1311,7 +1311,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/osw
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -1319,7 +1319,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/oswin/pico/
 
 # target to build an object file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1327,7 +1327,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/oswin/pico/
 
 # target to preprocess a source file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1335,7 +1335,7 @@ Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/oswin/pico/
 
 # target to generate assembly for a file
 Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 ssd1351.o: ssd1351.cpp.o
@@ -1343,7 +1343,7 @@ ssd1351.o: ssd1351.cpp.o
 
 # target to build an object file
 ssd1351.cpp.o:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o
 .PHONY : ssd1351.cpp.o
 
 ssd1351.i: ssd1351.cpp.i
@@ -1351,7 +1351,7 @@ ssd1351.i: ssd1351.cpp.i
 
 # target to preprocess a source file
 ssd1351.cpp.i:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.i
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.i
 .PHONY : ssd1351.cpp.i
 
 ssd1351.s: ssd1351.cpp.s
@@ -1359,7 +1359,7 @@ ssd1351.s: ssd1351.cpp.s
 
 # target to generate assembly for a file
 ssd1351.cpp.s:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.s
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(MAKE) $(MAKESILENT) -f lib/ssd1351/CMakeFiles/ssd1351.dir/build.make lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.s
 .PHONY : ssd1351.cpp.s
 
 # Help Target
@@ -1536,6 +1536,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

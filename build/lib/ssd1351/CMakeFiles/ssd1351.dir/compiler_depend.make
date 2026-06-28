@@ -2317,7 +2317,7 @@ lib/ssd1351/CMakeFiles/ssd1351.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h
 
-lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.cpp \
+lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.cpp \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -2435,13 +2435,11 @@ lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: /Users/oswin/pico/projects/pic
   /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/font8x8_basic.h \
-  /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.hpp
+  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/font8x8_basic.h \
+  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp
 
 
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.hpp:
-
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/font8x8_basic.h:
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/font8x8_basic.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/new:
 
@@ -2483,7 +2481,7 @@ lib/ssd1351/CMakeFiles/ssd1351.dir/ssd1351.cpp.o: /Users/oswin/pico/projects/pic
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/algorithm:
 
-/Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/ssd1351/ssd1351.cpp:
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.cpp:
 
 /Users/oswin/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
@@ -2842,6 +2840,8 @@ generated/pico_base/pico/version.h:
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/bits/utility.h:
 
 /Users/oswin/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp:
 
 /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h:
 

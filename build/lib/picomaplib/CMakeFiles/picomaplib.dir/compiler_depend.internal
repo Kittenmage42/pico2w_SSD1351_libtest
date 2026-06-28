@@ -39,8 +39,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/ha
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c
@@ -86,8 +86,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c
@@ -132,8 +132,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c
@@ -181,8 +181,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -228,8 +228,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_time/time.c
@@ -302,8 +302,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_time/timeout_helper.c
@@ -346,8 +346,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_util/datetime.c
@@ -402,8 +402,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_util/pheap.c
@@ -448,8 +448,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c.o
  /Users/oswin/pico/pico-sdk/src/common/pico_util/queue.c
@@ -506,8 +506,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/common/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c.o
  /Users/oswin/pico/pico-sdk/src/rp2350/pico_platform/platform.c
@@ -545,8 +545,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2350/pi
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
@@ -590,8 +590,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
@@ -649,8 +649,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c
@@ -685,8 +685,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
@@ -740,8 +740,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
@@ -796,8 +796,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
@@ -843,8 +843,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
@@ -884,8 +884,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
@@ -928,8 +928,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
@@ -969,8 +969,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
@@ -1020,8 +1020,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
@@ -1072,8 +1072,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
@@ -1113,8 +1113,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
@@ -1180,8 +1180,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
@@ -1224,8 +1224,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
@@ -1276,8 +1276,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -1336,8 +1336,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
@@ -1384,8 +1384,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
@@ -1458,8 +1458,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
@@ -1507,8 +1507,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c
@@ -1544,8 +1544,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
@@ -1586,8 +1586,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
@@ -1632,8 +1632,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
@@ -1675,8 +1675,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
@@ -1718,8 +1718,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
@@ -1757,8 +1757,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
@@ -1813,8 +1813,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
@@ -1857,8 +1857,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -1894,8 +1894,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
@@ -1973,8 +1973,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
@@ -2032,8 +2032,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
@@ -2068,8 +2068,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
@@ -2108,8 +2108,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
@@ -2177,8 +2177,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
@@ -2245,8 +2245,8 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -2313,10 +2313,10 @@ lib/picomaplib/CMakeFiles/picomaplib.dir/Users/oswin/pico/pico-sdk/src/rp2_commo
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/config_autogen.h
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/generated/pico_base/pico/version.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/config_autogen.h
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
 
 lib/picomaplib/CMakeFiles/picomaplib.dir/map.cpp.o
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib/map.cpp
- /Users/oswin/pico/projects/pico2w_SSD1351_libtest/lib/picomaplib/map.hpp
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.cpp
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.hpp
 

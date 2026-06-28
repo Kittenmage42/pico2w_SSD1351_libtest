@@ -177,7 +177,7 @@ void SSD1351::drawImage(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
     }
 }
 
-void SSD1351::drawImageAplha(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
+void SSD1351::drawImageAlpha(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
                              const uint8_t* pixels) {  // 3 Bytes pro Pixel
     for (uint16_t row = 0; row < h; ++row) {
         if (y + row >= height_) break;

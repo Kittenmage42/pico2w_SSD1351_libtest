@@ -2772,6 +2772,10 @@ Discarded input sections
                 0x00000000       0x44 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
  .text._ZN7SSD135112fillTriangleEiiiiiit
                 0x00000000      0x180 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+ .text._ZN7SSD13519drawImageEttttPKt
+                0x00000000       0xe4 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+ .text._ZN7SSD135114drawImageAlphaEttttPKh
+                0x00000000      0x188 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
  .text._ZN7SSD13515resetEv
                 0x00000000       0x34 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
  .text._ZN7SSD135112writeCommandEh
@@ -5133,102 +5137,102 @@ LOAD linker stubs
  .comment       0x00000045        0x0 lib/picomaplib/libpicomaplib.a(map.cpp.o)
                                  0x46 (size before relaxing)
 
-.debug_info     0x00000000    0x3be8a
- .debug_info    0x00000000     0x182d CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
- .debug_info    0x0000182d     0x234b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_info    0x00003b78      0x1c4 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_info    0x00003d3c      0xb42 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_info    0x0000487e      0x477 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_info    0x00004cf5     0x1463 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_info    0x00006158     0x257f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_info    0x000086d7      0x18c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_info    0x00008863     0x1dee CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_info    0x0000a651      0x388 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
- .debug_info    0x0000a9d9     0x5333 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
- .debug_info    0x0000fd0c     0x2fd0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_info    0x00012cdc     0x2874 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_info    0x00015550      0x510 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_info    0x00015a60      0xb9d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
- .debug_info    0x000165fd      0x271 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_info    0x0001686e     0x1067 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_info    0x000178d5      0x1c9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_info    0x00017a9e      0x31b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_info    0x00017db9      0x1b6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_info    0x00017f6f      0x213 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_info    0x00018182     0x1c36 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_info    0x00019db8      0x7ce CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_info    0x0001a586      0x3e9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_info    0x0001a96f      0x702 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
- .debug_info    0x0001b071      0x2bd CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_info    0x0001b32e     0x22ce CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_info    0x0001d5fc       0x23 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_info    0x0001d61f      0xc05 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x0001e224     0x1c04 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x0001fe28      0xb17 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
- .debug_info    0x0002093f     0x1f4d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
- .debug_info    0x0002288c      0x730 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
- .debug_info    0x00022fbc      0x2bc CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_info    0x00023278     0x2c78 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_info    0x00025ef0     0x1267 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_info    0x00027157     0x4b07 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
- .debug_info    0x0002bc5e      0xbfc CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
- .debug_info    0x0002c85a     0x20f9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
- .debug_info    0x0002e953     0x176f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
- .debug_info    0x000300c2     0x206f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
- .debug_info    0x00032131     0x2810 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_info    0x00034941     0x1239 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_info    0x00035b7a     0x61f7 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
- .debug_info    0x0003bd71      0x119 lib/picomaplib/libpicomaplib.a(map.cpp.o)
+.debug_info     0x00000000    0x3c308
+ .debug_info    0x00000000     0x18bd CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
+ .debug_info    0x000018bd     0x234b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_info    0x00003c08      0x1c4 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_info    0x00003dcc      0xb42 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_info    0x0000490e      0x477 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_info    0x00004d85     0x1463 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_info    0x000061e8     0x257f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_info    0x00008767      0x18c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_info    0x000088f3     0x1dee CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_info    0x0000a6e1      0x388 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+ .debug_info    0x0000aa69     0x5333 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_info    0x0000fd9c     0x2fd0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_info    0x00012d6c     0x2874 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_info    0x000155e0      0x510 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_info    0x00015af0      0xb9d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+ .debug_info    0x0001668d      0x271 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_info    0x000168fe     0x1067 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_info    0x00017965      0x1c9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_info    0x00017b2e      0x31b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_info    0x00017e49      0x1b6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_info    0x00017fff      0x213 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_info    0x00018212     0x1c36 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_info    0x00019e48      0x7ce CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_info    0x0001a616      0x3e9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_info    0x0001a9ff      0x702 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+ .debug_info    0x0001b101      0x2bd CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_info    0x0001b3be     0x22ce CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_info    0x0001d68c       0x23 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_info    0x0001d6af      0xc05 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_info    0x0001e2b4     0x1c04 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x0001feb8      0xb17 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+ .debug_info    0x000209cf     0x1f4d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+ .debug_info    0x0002291c      0x730 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+ .debug_info    0x0002304c      0x2bc CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_info    0x00023308     0x2c78 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_info    0x00025f80     0x1267 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_info    0x000271e7     0x4b07 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .debug_info    0x0002bcee      0xbfc CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_info    0x0002c8ea     0x20f9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_info    0x0002e9e3     0x176f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+ .debug_info    0x00030152     0x206f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+ .debug_info    0x000321c1     0x2810 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_info    0x000349d1     0x1239 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_info    0x00035c0a     0x65e5 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+ .debug_info    0x0003c1ef      0x119 lib/picomaplib/libpicomaplib.a(map.cpp.o)
 
-.debug_abbrev   0x00000000     0x9dc9
- .debug_abbrev  0x00000000      0x4a6 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
- .debug_abbrev  0x000004a6      0x561 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_abbrev  0x00000a07      0x131 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_abbrev  0x00000b38      0x35d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_abbrev  0x00000e95      0x235 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_abbrev  0x000010ca      0x274 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_abbrev  0x0000133e      0x65a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_abbrev  0x00001998      0x124 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_abbrev  0x00001abc      0x4a9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_abbrev  0x00001f65      0x239 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
- .debug_abbrev  0x0000219e      0x64a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
- .debug_abbrev  0x000027e8      0x50c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_abbrev  0x00002cf4      0x51c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_abbrev  0x00003210      0x19d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_abbrev  0x000033ad      0x34a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
- .debug_abbrev  0x000036f7      0x14c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_abbrev  0x00003843      0x478 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_abbrev  0x00003cbb      0x101 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_abbrev  0x00003dbc      0x1e4 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_abbrev  0x00003fa0      0x10f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_abbrev  0x000040af      0x181 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_abbrev  0x00004230      0x327 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_abbrev  0x00004557      0x2be CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_abbrev  0x00004815      0x1bf CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_abbrev  0x000049d4      0x21f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
- .debug_abbrev  0x00004bf3       0xbe CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_abbrev  0x00004cb1      0x510 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_abbrev  0x000051c1       0x12 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_abbrev  0x000051d3      0x361 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_abbrev  0x00005534      0x604 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_abbrev  0x00005b38      0x3bc CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
- .debug_abbrev  0x00005ef4      0x61c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
- .debug_abbrev  0x00006510      0x172 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
- .debug_abbrev  0x00006682      0x1b8 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_abbrev  0x0000683a      0x619 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_abbrev  0x00006e53      0x47c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_abbrev  0x000072cf      0x875 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
- .debug_abbrev  0x00007b44      0x3ec CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
- .debug_abbrev  0x00007f30      0x59b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
- .debug_abbrev  0x000084cb      0x4e6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
- .debug_abbrev  0x000089b1      0x575 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
- .debug_abbrev  0x00008f26      0x44e CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_abbrev  0x00009374      0x316 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_abbrev  0x0000968a      0x69a lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
- .debug_abbrev  0x00009d24       0xa5 lib/picomaplib/libpicomaplib.a(map.cpp.o)
+.debug_abbrev   0x00000000     0x9e1a
+ .debug_abbrev  0x00000000      0x4a9 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
+ .debug_abbrev  0x000004a9      0x561 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_abbrev  0x00000a0a      0x131 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_abbrev  0x00000b3b      0x35d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_abbrev  0x00000e98      0x235 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_abbrev  0x000010cd      0x274 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_abbrev  0x00001341      0x65a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_abbrev  0x0000199b      0x124 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_abbrev  0x00001abf      0x4a9 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_abbrev  0x00001f68      0x239 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+ .debug_abbrev  0x000021a1      0x64a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_abbrev  0x000027eb      0x50c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_abbrev  0x00002cf7      0x51c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_abbrev  0x00003213      0x19d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_abbrev  0x000033b0      0x34a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+ .debug_abbrev  0x000036fa      0x14c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_abbrev  0x00003846      0x478 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_abbrev  0x00003cbe      0x101 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_abbrev  0x00003dbf      0x1e4 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_abbrev  0x00003fa3      0x10f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_abbrev  0x000040b2      0x181 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_abbrev  0x00004233      0x327 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_abbrev  0x0000455a      0x2be CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_abbrev  0x00004818      0x1bf CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_abbrev  0x000049d7      0x21f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+ .debug_abbrev  0x00004bf6       0xbe CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_abbrev  0x00004cb4      0x510 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_abbrev  0x000051c4       0x12 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_abbrev  0x000051d6      0x361 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_abbrev  0x00005537      0x604 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_abbrev  0x00005b3b      0x3bc CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+ .debug_abbrev  0x00005ef7      0x61c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+ .debug_abbrev  0x00006513      0x172 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+ .debug_abbrev  0x00006685      0x1b8 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_abbrev  0x0000683d      0x619 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_abbrev  0x00006e56      0x47c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_abbrev  0x000072d2      0x875 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .debug_abbrev  0x00007b47      0x3ec CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_abbrev  0x00007f33      0x59b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_abbrev  0x000084ce      0x4e6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+ .debug_abbrev  0x000089b4      0x575 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+ .debug_abbrev  0x00008f29      0x44e CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_abbrev  0x00009377      0x316 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_abbrev  0x0000968d      0x6e8 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+ .debug_abbrev  0x00009d75       0xa5 lib/picomaplib/libpicomaplib.a(map.cpp.o)
 
 .debug_loclists
-                0x00000000    0x1c9d0
+                0x00000000    0x1cd07
  .debug_loclists
                 0x00000000      0x121 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
  .debug_loclists
@@ -5310,11 +5314,11 @@ LOAD linker stubs
  .debug_loclists
                 0x00018a8f      0xa6c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
  .debug_loclists
-                0x000194fb     0x3476 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+                0x000194fb     0x37ad lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
  .debug_loclists
-                0x0001c971       0x5f lib/picomaplib/libpicomaplib.a(map.cpp.o)
+                0x0001cca8       0x5f lib/picomaplib/libpicomaplib.a(map.cpp.o)
 
-.debug_aranges  0x00000000     0x1368
+.debug_aranges  0x00000000     0x1378
  .debug_aranges
                 0x00000000       0x28 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
  .debug_aranges
@@ -5402,12 +5406,12 @@ LOAD linker stubs
  .debug_aranges
                 0x00001220       0x68 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
  .debug_aranges
-                0x00001288       0xb8 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+                0x00001288       0xc8 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
  .debug_aranges
-                0x00001340       0x28 lib/picomaplib/libpicomaplib.a(map.cpp.o)
+                0x00001350       0x28 lib/picomaplib/libpicomaplib.a(map.cpp.o)
 
 .debug_rnglists
-                0x00000000     0x4da6
+                0x00000000     0x4e45
  .debug_rnglists
                 0x00000000       0x33 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
  .debug_rnglists
@@ -5493,150 +5497,150 @@ LOAD linker stubs
  .debug_rnglists
                 0x00004574      0x27c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
  .debug_rnglists
-                0x000047f0      0x59d lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+                0x000047f0      0x63c lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
  .debug_rnglists
-                0x00004d8d       0x19 lib/picomaplib/libpicomaplib.a(map.cpp.o)
+                0x00004e2c       0x19 lib/picomaplib/libpicomaplib.a(map.cpp.o)
 
-.debug_line     0x00000000    0x24324
- .debug_line    0x00000000      0x8a0 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
- .debug_line    0x000008a0     0x1b0e CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_line    0x000023ae      0x28d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x0000263b      0x7ce CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_line    0x00002e09      0x41b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x00003224      0x386 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x000035aa     0x1672 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x00004c1c      0x25a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_line    0x00004e76     0x124f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_line    0x000060c5      0x39b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
- .debug_line    0x00006460     0x32e6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
- .debug_line    0x00009746     0x1d41 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x0000b487     0x1e68 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x0000d2ef      0x4c8 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x0000d7b7      0x962 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
- .debug_line    0x0000e119      0x314 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x0000e42d      0xb45 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x0000ef72      0x399 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_line    0x0000f30b      0x410 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_line    0x0000f71b      0x35a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x0000fa75      0x30b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x0000fd80      0x69a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x0001041a      0x554 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x0001096e      0x280 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_line    0x00010bee      0x296 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
- .debug_line    0x00010e84      0x1ef CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x00011073     0x1bf7 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x00012c6a       0x9e CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x00012d08      0x8a1 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x000135a9     0x14c8 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x00014a71      0x4e0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
- .debug_line    0x00014f51     0x10d2 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
- .debug_line    0x00016023      0x3a5 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
- .debug_line    0x000163c8      0x6c1 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_line    0x00016a89     0x1d54 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_line    0x000187dd      0xc9b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_line    0x00019478     0x25f6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
- .debug_line    0x0001ba6e      0x731 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
- .debug_line    0x0001c19f      0xfed CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
- .debug_line    0x0001d18c      0x9f0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
- .debug_line    0x0001db7c     0x1325 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
- .debug_line    0x0001eea1     0x192d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_line    0x000207ce     0x14e1 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_line    0x00021caf     0x25b7 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
- .debug_line    0x00024266       0xbe lib/picomaplib/libpicomaplib.a(map.cpp.o)
+.debug_line     0x00000000    0x247f4
+ .debug_line    0x00000000      0x89a CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
+ .debug_line    0x0000089a     0x1b0e CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_line    0x000023a8      0x28d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x00002635      0x7ce CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_line    0x00002e03      0x41b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x0000321e      0x386 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x000035a4     0x1672 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x00004c16      0x25a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x00004e70     0x124f CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_line    0x000060bf      0x39b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+ .debug_line    0x0000645a     0x32e6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_line    0x00009740     0x1d41 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x0000b481     0x1e68 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x0000d2e9      0x4c8 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x0000d7b1      0x962 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+ .debug_line    0x0000e113      0x314 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x0000e427      0xb45 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x0000ef6c      0x399 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_line    0x0000f305      0x410 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_line    0x0000f715      0x35a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x0000fa6f      0x30b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x0000fd7a      0x69a CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x00010414      0x554 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x00010968      0x280 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_line    0x00010be8      0x296 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+ .debug_line    0x00010e7e      0x1ef CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x0001106d     0x1bf7 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x00012c64       0x9e CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x00012d02      0x8a1 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x000135a3     0x14c8 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x00014a6b      0x4e0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+ .debug_line    0x00014f4b     0x10d2 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+ .debug_line    0x0001601d      0x3a5 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+ .debug_line    0x000163c2      0x6c1 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_line    0x00016a83     0x1d54 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_line    0x000187d7      0xc9b CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_line    0x00019472     0x25f6 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .debug_line    0x0001ba68      0x731 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_line    0x0001c199      0xfed CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_line    0x0001d186      0x9f0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+ .debug_line    0x0001db76     0x1325 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+ .debug_line    0x0001ee9b     0x192d CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_line    0x000207c8     0x14e1 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_line    0x00021ca9     0x2a8d lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+ .debug_line    0x00024736       0xbe lib/picomaplib/libpicomaplib.a(map.cpp.o)
 
-.debug_str      0x00000000     0x9f8e
- .debug_str     0x00000000     0x9f8e CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
-                                0xd45 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.debug_str      0x00000000     0xa013
+ .debug_str     0x00000000     0xa013 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
+                                0xdc3 (size before relaxing)
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
                                 0xd30 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
                                 0x209 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/hardware_claim/claim.c.o
                                 0x37b (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
                                 0x326 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
                                 0xbd3 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
                                 0xc52 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
                                 0x218 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/mutex.c.o
                                 0x8ec (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
                                 0x2ec (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/common/pico_time/time.c.o
                                0x130e (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
                                 0xba6 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
                                 0xb95 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
                                 0x49f (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
                                 0x740 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
                                 0x2cc (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
                                 0x968 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
                                 0x2b4 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
                                 0x292 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
                                 0x245 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
                                 0x29b (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
                                0x121f (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
                                 0x4e7 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
                                 0x241 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
                                 0x386 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
                                 0x40a (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
                                 0x4b1 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
                                  0x81 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
                                 0x89a (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
                                 0xc4f (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
                                 0xf61 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
                                0x1054 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
                                0x1103 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
                                 0x297 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
                                0x13d5 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
                                 0xbcc (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
                                0x1c69 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
                                 0x7f7 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
                                0x1876 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
                                 0xf64 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
                                 0xf40 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
                                 0x629 (size before relaxing)
- .debug_str     0x00009f8e        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_str     0x0000a013        0x0 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
                                 0x782 (size before relaxing)
- .debug_str     0x00009f8e        0x0 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
-                               0x10c3 (size before relaxing)
- .debug_str     0x00009f8e        0x0 lib/picomaplib/libpicomaplib.a(map.cpp.o)
+ .debug_str     0x0000a013        0x0 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+                               0x1148 (size before relaxing)
+ .debug_str     0x0000a013        0x0 lib/picomaplib/libpicomaplib.a(map.cpp.o)
                                 0x1ca (size before relaxing)
 
-.debug_frame    0x00000000     0x39b4
+.debug_frame    0x00000000     0x3a10
  .debug_frame   0x00000000       0x60 CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
  .debug_frame   0x00000060      0x340 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_frame   0x000003a0       0x4c CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -5678,21 +5682,21 @@ LOAD linker stubs
  .debug_frame   0x00002c68      0x258 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
  .debug_frame   0x00002ec0      0x240 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
  .debug_frame   0x00003100      0x144 CMakeFiles/pico2w_ssd1351_libtest.dir/Users/oswin/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_frame   0x00003244      0x2f4 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
- .debug_frame   0x00003538       0x38 lib/picomaplib/libpicomaplib.a(map.cpp.o)
- .debug_frame   0x00003570       0x30 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-malloc.o)
- .debug_frame   0x000035a0       0x54 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-mallocr.o)
- .debug_frame   0x000035f4       0x30 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-mlock.o)
- .debug_frame   0x00003624       0x2c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memset.o)
- .debug_frame   0x00003650       0x2c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-sbrkr.o)
- .debug_frame   0x0000367c       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-errno.o)
- .debug_frame   0x0000369c       0x28 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-sysconf.o)
- .debug_frame   0x000036c4       0xb0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-lock.o)
- .debug_frame   0x00003774       0x28 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
- .debug_frame   0x0000379c       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
- .debug_frame   0x000037bc       0x80 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-freer.o)
- .debug_frame   0x0000383c      0x13c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-findfp.o)
- .debug_frame   0x00003978       0x3c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-reent.o)
+ .debug_frame   0x00003244      0x350 lib/ssd1351/libssd1351.a(ssd1351.cpp.o)
+ .debug_frame   0x00003594       0x38 lib/picomaplib/libpicomaplib.a(map.cpp.o)
+ .debug_frame   0x000035cc       0x30 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-malloc.o)
+ .debug_frame   0x000035fc       0x54 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-mallocr.o)
+ .debug_frame   0x00003650       0x30 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-mlock.o)
+ .debug_frame   0x00003680       0x2c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memset.o)
+ .debug_frame   0x000036ac       0x2c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-sbrkr.o)
+ .debug_frame   0x000036d8       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-errno.o)
+ .debug_frame   0x000036f8       0x28 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-sysconf.o)
+ .debug_frame   0x00003720       0xb0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-lock.o)
+ .debug_frame   0x000037d0       0x28 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
+ .debug_frame   0x000037f8       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
+ .debug_frame   0x00003818       0x80 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-freer.o)
+ .debug_frame   0x00003898      0x13c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-findfp.o)
+ .debug_frame   0x000039d4       0x3c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-reent.o)
 
 .debug_line_str
                 0x00000000      0x165

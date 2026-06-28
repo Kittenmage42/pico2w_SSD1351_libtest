@@ -1,4 +1,4 @@
-# Install script for directory: /Users/oswin/pico/projects/pico2w_SSD1351_libtest
+# Install script for directory: /Users/oswin/pico/projects/pico2w_ssd1351_libtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/pico-sdk/cmake_install.cmake")
-  include("/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/lib/ssd1351/cmake_install.cmake")
-  include("/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/lib/picomaplib/cmake_install.cmake")
+  include("/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/pico-sdk/cmake_install.cmake")
+  include("/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/lib/ssd1351/cmake_install.cmake")
+  include("/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/lib/picomaplib/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/install_local_manifest.txt"
+  file(WRITE "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,6 +64,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/oswin/pico/projects/pico2w_SSD1351_libtest/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
