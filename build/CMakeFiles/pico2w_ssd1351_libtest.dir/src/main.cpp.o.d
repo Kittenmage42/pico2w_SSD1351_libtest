@@ -129,4 +129,5 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
  /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/rosc.h \
- /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/rosc.h
+ /Users/oswin/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/rosc.h \
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/strolch.h

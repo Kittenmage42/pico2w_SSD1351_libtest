@@ -4923,8 +4923,11 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o: /Users/oswin/pico/projects
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.hpp \
-  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp
+  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp \
+  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/strolch.h
 
+
+/Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/strolch.h:
 
 /Users/oswin/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/rosc.h:
 

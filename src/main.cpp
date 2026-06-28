@@ -4,6 +4,7 @@
 #include <cmath>
 #include <cstdio> // snprintf
 #include "hardware/structs/rosc.h"
+#include "strolch.h"
 
 #define TARGET_FPS 60
 
@@ -40,6 +41,13 @@ int main() {
     disp.show();
     
     sleep_ms(3000);
+    
+    disp.clear();
+    disp.drawImageAlpha(0, 0, 128, 128,
+                        Strolch);
+    disp.show();
+    
+    sleep_ms(10000);
     
     Ball ball = {63.0, 63.0, 1, 2, 8};
 

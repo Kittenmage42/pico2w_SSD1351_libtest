@@ -5013,4 +5013,5 @@ CMakeFiles/pico2w_ssd1351_libtest.dir/src/main.cpp.o
  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/build/generated/pico_base/pico/version.h
  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/picomaplib/map.hpp
  /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/ssd1351.hpp
+ /Users/oswin/pico/projects/pico2w_ssd1351_libtest/lib/ssd1351/strolch.h
 
