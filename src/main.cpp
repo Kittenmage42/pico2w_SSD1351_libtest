@@ -27,7 +27,8 @@ int main() {
     
     int counter = 0;
 
-    SSD1351::Pins pins{18, 19, 17, 20, 21};
+    SSD1351::Pins pins{18,  19,   17, 20, 21};
+                    // sck, mosi, cs, dc, rst
     SSD1351 disp(spi0, pins);
     disp.begin();
 
